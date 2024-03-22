@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+body{
+    
+    color: rgb(37, 11, 96);
+    background-color: aliceblue;
+    
+}
+
+.profilepic{
+    width: 250px;
+    border: 10px solid rgb(243, 243, 60);
+    border-radius: 50%; 
+    
+}
+
+.name{
+    color: rgb(37, 11, 96);
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont-edu>h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.cont-edu li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+.work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 100px;
+    margin: 100px;
+}
+
+
+
+.port-html{
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(./port-pic.png);
+    background-size: 600px 300px;
+    border-radius: 50px;
+}
+
+.main1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.painting{
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(./goal.png);
+    background-size: 600px 300px;
+    border-radius: 50px;
+}
+
+.TinDog{
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(./tindog.png);
+    background-size: 600px 300px;
+    border-radius: 50px;
+}
+
+.Moveit{
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(./Screenshot\ 2024-03-11\ 023654.png);
+    background-size: 600px 300px;
+    border-radius: 50px;
+}
+
+.skills{
+    
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(4,350px);
+    gap: 10px;
+}
+.skill-grid>h3{
+    background-color: bisque;
+    border-radius: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+    gap: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+   
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
